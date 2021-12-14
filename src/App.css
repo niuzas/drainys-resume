@@ -1,0 +1,48 @@
+.app {
+  min-height: 100vh;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.content-box.pills-box .pill {
+  margin-bottom: 30px;
+}
+
+.section {
+  display: flex;
+  gap: 0 66px;
+  margin-bottom: 66px;
+}
+
+.section .d-flex {
+  gap: 0 66px;
+}
+
+.footer .separator {
+  margin-bottom: 32px;
+}
+
+.job-experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.job-experience .experience {
+  padding: 0 0 0 20px;
+  border-left: 2px solid var(--gray);
+}
+
+.job-experience .experience:first-child {
+  border: none;
+}
+
+.contacts {
+  margin: 0px 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
+
+.footer {
+  margin-bottom: 32px;
+}

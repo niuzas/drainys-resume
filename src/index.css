@@ -1,0 +1,51 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --green: #7abcac;
+  --gray: #dcdcdc;
+  --yellow: #d8da79;
+  --red: #c29486;
+}
+
+* {
+  transition: all 0.3s linear;
+}
+
+body {
+  margin: 0;
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--black);
+}
+
+p,
+a,
+li,
+span {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: medium;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
