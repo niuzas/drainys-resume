@@ -1,10 +1,10 @@
 const data = {
   en: {
-    name: "Mindaugas Jačionis",
+    name: "Darius Rainys",
     title: "FrontEnd Dev",
   },
   lt: {
-    name: "Mindaugas Jačionis",
+    name: "Darius Rainys",
     title: "Programuotojas",
   },
 };
